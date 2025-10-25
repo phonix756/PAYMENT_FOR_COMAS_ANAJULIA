@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalTrust Fund | Transaction History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-university"></i>
+                    <span>GlobalTrust Fund</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="cards.html">Credit Cards</a></li>
+                        <li><a href="crypto.html">Crypto</a></li>
+                        <li><a href="transfer.html">Transfer</a></li>
+                        <li><a href="transactions.html" class="active">Transactions</a></li>
+                    </ul>
+                </nav>
+                <div class="user-info">
+                    <div class="user-avatar">CA</div>
+                    <span>Comas Anajulia</span>
+                    <a href="index.html" class="logout-btn">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h1>Transaction History</h1>
+                <p>View all your transactions and filter by type</p>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active">All Transactions</button>
+                <button class="filter-btn">Income</button>
+                <button class="filter-btn">Expenses</button>
+                <button class="filter-btn">Transfers</button>
+                <button class="filter-btn">Crypto</button>
+            </div>
+
+            <div class="transactions-table">
+                <div class="table-header">
+                    <div>Description</div>
+                    <div>Amount</div>
+                    <div>Date</div>
+                    <div>Status</div>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <div class="transaction-details">
+                            <h4>Fund Deposit</h4>
+                            <p>From Fedral Inc.</p>
+                        </div>
+                    </div>
+                    <div class="transaction-amount positive">+$370,500.00</div>
+                    <div>Oct 6, 2025</div>
+                    <div><span class="status completed">Completed</span></div>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <div class="transaction-details">
+                            <h4>Sarvice Payment</h4>
+                            <p>To City Bank</p>
+                        </div>
+                    </div>
+                    <div class="transaction-amount negative">-$4,200.00</div>
+                    <div>May 10, 2025</div>
+                    <div><span class="status completed">Completed</span></div>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <div class="transaction-details">
+                            <h4>Bitcoin Purchase</h4>
+                            <p>Crypto Exchange</p>
+                        </div>
+                    </div>
+                    <div class="transaction-amount negative">-$8,000.00</div>
+                    <div>May 5, 2025</div>
+                    <div><span class="status completed">Completed</span></div>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <div class="transaction-details">
+                            <h4>Investment Dividend</h4>
+                            <p>Tech Stocks Fund</p>
+                        </div>
+                    </div>
+                    <div class="transaction-amount positive">+$120,250.00</div>
+                    <div>May 1, 2025</div>
+                    <div><span class="status completed">Completed</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GlobalTrust Fund</h3>
+                    <p>Your trusted partner in financial services since 1985.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>24/7 Customer Support: 1-800-GTB-BANK</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GlobalTrust Fund. All rights reserved. Member FDIC.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
