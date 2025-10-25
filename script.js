@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
         loginForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            const username = document.getElementById('comas').value;
-            const password = document.getElementById('anajulia').value;
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
             
             // Simple validation
             if (username && password) {
